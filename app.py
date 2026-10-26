@@ -1,17 +1,3 @@
-"""
-MFX — Multi-Currency Exchange Platform
-Frontend and Streamlit UI (app.py)
-
-A modern, centered fintech currency converter and historical exchange rate analytics app.
-Features:
-- Centered, non-full-width layout
-- No separate tabs: Converter on top, Exchange Rate Trajectory chart directly below
-- Flowing spline area chart with point markers matching the user's reference image (Plotly)
-- 1M, 3M, 6M, 1Y timeframe selector pills
-- 5 comprehensive period statistics: Current Rate, Peak (High), Trough (Low), Average Rate, Net Volatility/Change
-- Powered dynamically by Frankfurter API v2
-"""
-
 import datetime
 from typing import Dict, List, Any
 import streamlit as st
